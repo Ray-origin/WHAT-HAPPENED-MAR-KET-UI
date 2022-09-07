@@ -1,54 +1,3 @@
-/* .container{
-    width: 100vw;
-    height: 80px;
-    padding: 24px 0 27px 0;
-    background-color: var(--black-Two);
-}
-
-.logo{
-    width: 226px;
-    height: 26px;
-    margin: 3px 687px 0 0;
-    object-fit: contain;
-    float:left;
-    position: relative;
-}
-img{
-    width: 100%;
-    height: 100%;
-}
-
-.navbar-item{
-    border: none;
-    outline: none;
-    cursor: pointer;
-    width: 111px;
-    height: 11px;
-    font-family: 'Montserrat', sans-serif;
-    margin: 34px 76px 35px 0;
-    display: inline;
-    text-decoration: none;
-    font-size: 14px;
-    text-align: center;
-    color: white;
-}
-
-#last-navbar-item{
-    margin: 34px 0 35px 0;
-}
-
-#RatePlan{
-    margin:34px 57px 35px 0;
-}
-
-.divider::before{
-    content: "";
-    display: inline-block;
-    width: 1px;
-    height: 23px;
-    background-color: var(--pinkish-grey-Two);
-    margin-right: 44px;
-} */
 nav{
     height: 80px;
     width: 100%;
@@ -91,6 +40,18 @@ nav ul li{
     line-height: 80px;
     margin: 0 37px;
 }
+#RatePlan a{
+    padding-right: 57px ;
+}
+#RatePlan::after{
+    content:"";
+    width: 1px;
+    height: 23px;
+    background-color: var(--pinkish-grey-Two);
+    position: absolute;
+    top: 35%;
+    /* left: 20%; */
+}
 nav ul li a{
     text-decoration: none;
     color: white;
@@ -100,7 +61,7 @@ nav ul li a{
 }
 a:hover{
     background-color: var(--pinkish-grey-Two);
-    padding: 15px 15px;
+    padding: 15px 15px !important;
 }
 @media only screen and (max-width: 1200px){
     .logo{
@@ -127,6 +88,12 @@ a:hover{
     }
     nav ul li a{
         font-size: 15px;
+    }
+    #RatePlan a{
+        padding: 0;
+    }
+    #RatePlan::after{
+        position: static;
     }
     #check:checked ~ ul{
         left: 0;

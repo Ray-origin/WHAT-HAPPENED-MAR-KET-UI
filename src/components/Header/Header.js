@@ -15,7 +15,7 @@ function Header() {
       <ul>
         <li><a href='#'>INTRODUCTION</a></li>
         <li><a href='#'>SOLUTION</a></li>
-        <li><a href='#'>RATE PLAN</a></li>
+        <li id="RatePlan"><a href='#'>RATE PLAN</a></li>
         <li><a href='#'>LOGIN</a></li>
         <li><a href='#'>APPLY FOR FREE USE</a></li>
       </ul>
