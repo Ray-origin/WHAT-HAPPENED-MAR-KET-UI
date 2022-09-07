@@ -37,7 +37,7 @@
 }
 .product-container{
     position: absolute;
-    width: 83%;
+    width: 84%;
     height: auto;
     margin:0 8% 0 9%;
     top: 22.625rem;
@@ -79,6 +79,7 @@
     width: 70%;
     height: 15.3%;
     left: 15%;
+    transition: all .3s;
 }
 .button-go:hover{
     background-color: var(--pinkish-grey-Two);
