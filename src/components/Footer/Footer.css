@@ -1,0 +1,148 @@
+#footer {
+    position: relative;
+    background-color: white;
+    height: 300px;
+    margin-left: 6.188rem;
+    margin-right: 6.25rem;
+    padding-top: 3.063rem;
+    padding-bottom:  7.063rem;
+    border-top: solid 1px #f4f4f4;
+}
+
+#footer .contain {
+    display: flex;
+    padding-bottom: 3.75rem;
+}
+
+.footer__whathappened {
+    text-align: left;
+    flex: 1;
+}
+
+.footer__whathappened h3 {
+    text-align: left;
+    font-size: 0.875rem;
+    font-weight: bold;
+    letter-spacing: normal;
+    color: var(--black-Two);
+}
+
+.footer__whathappened p {
+    text-align: left;
+    margin-top: 1.938rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 2.14;
+    letter-spacing: normal;
+    color: var(--black-Two);
+}
+
+.footer__help {
+    display: inline-block;
+}
+
+.footer__help h3 {
+    margin-top:0.125rem;
+    font-size: 0.875rem;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    text-align: left;
+    color: var(--black-Two);
+}
+
+.footer__help p {
+    margin-top: 1.313rem;
+    font-size: 0.875rem;
+    font-weight: 300;
+    line-height: 2.21;
+    letter-spacing: normal;
+    text-align: left;
+    color: #333;
+}
+
+
+
+.outro {
+    display: block;
+    padding-bottom: 7.063rem;
+    padding-top: 1.375rem;
+    border-top: solid 2px #f4f4f4;
+    text-align: left;
+    width: 52.438rem;
+}
+
+.outro p {
+    display: inline;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.71;
+    letter-spacing: normal;
+    text-align: left;
+    color: #a9a9a9;
+}
+
+.outro .Korean {
+    font-family: 'Noto Sans KR', sans-serif;  
+}
+
+
+.aboutus {
+    margin-right: 6.375rem;
+}
+
+.myorder {
+    margin-right: 6.063rem;
+}
+
+.myaccount {
+    margin-right: 7.25rem;
+}
+
+
+@media screen and (max-width:75rem)
+{ 
+    #footer .contain {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 3.75rem;
+        align-items: center;
+        flex-grow: 1;
+        text-align: center;
+        justify-content: space-between;
+    }
+
+    .aboutus {
+        margin-right: 0;
+    }
+    
+    .myorder {
+        margin-right: 0;
+    }
+    
+    .myaccount {
+        margin-right: 0;
+    }
+
+    .footer__whathappened h3 {
+        text-align: center;
+    }
+    .footer__whathappened p {
+        text-align: center;
+    }
+
+    .footer__help h3 {
+        text-align: center;
+    }
+    .footer__help p {
+        text-align: center;
+    }
+
+    .footer__help {
+        margin-top: 20px;
+    }
+    .outro {
+        display:inline;
+    }
+}

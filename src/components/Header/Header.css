@@ -1,0 +1,134 @@
+/* .container{
+    width: 100vw;
+    height: 80px;
+    padding: 24px 0 27px 0;
+    background-color: var(--black-Two);
+}
+
+.logo{
+    width: 226px;
+    height: 26px;
+    margin: 3px 687px 0 0;
+    object-fit: contain;
+    float:left;
+    position: relative;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar-item{
+    border: none;
+    outline: none;
+    cursor: pointer;
+    width: 111px;
+    height: 11px;
+    font-family: 'Montserrat', sans-serif;
+    margin: 34px 76px 35px 0;
+    display: inline;
+    text-decoration: none;
+    font-size: 14px;
+    text-align: center;
+    color: white;
+}
+
+#last-navbar-item{
+    margin: 34px 0 35px 0;
+}
+
+#RatePlan{
+    margin:34px 57px 35px 0;
+}
+
+.divider::before{
+    content: "";
+    display: inline-block;
+    width: 1px;
+    height: 23px;
+    background-color: var(--pinkish-grey-Two);
+    margin-right: 44px;
+} */
+nav{
+    height: 80px;
+    width: 100%;
+    background-color: var(--black-Two);
+    position: sticky;
+    top: 0;
+    z-index: 999;
+}
+.logo{
+    width: 226px;
+    height: 26px;
+    left:97px;
+    top: 27px;
+    float:left;
+    position: relative;
+}
+.check-btn{
+    font-size: 30px;
+    color: white;
+    float: right;
+    line-height: 80px;
+    margin-right: 40px;
+    cursor: pointer;
+    display: none;
+}
+#check{
+    display: none;
+}
+.logo img{
+    width: 100%;
+    height: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    line-height: 80px;
+    margin: 0 37px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 14px;
+    text-transform: uppercase;
+    transition: 0.3s;
+}
+a:hover{
+    background-color: var(--pinkish-grey-Two);
+    padding: 15px 15px;
+}
+@media only screen and (max-width: 1200px){
+    .logo{
+        height:30px;
+        left: 0;
+        padding-left: 10%;
+    }
+    .check-btn{
+        display: block;
+    }
+    ul{
+        position: fixed;
+        width: 100vw;
+        height: 100vh;
+        background-color: #2c3e50;
+        top: 80px;
+        left: -100%;
+        text-align: center;
+        transition: all 0.5s;
+        z-index: 999;
+    }
+    nav ul li{
+        display: block;
+    }
+    nav ul li a{
+        font-size: 15px;
+    }
+    #check:checked ~ ul{
+        left: 0;
+    }
+}

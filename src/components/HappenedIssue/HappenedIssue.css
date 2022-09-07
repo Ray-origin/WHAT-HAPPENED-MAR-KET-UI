@@ -1,0 +1,187 @@
+
+#happenedissue {
+    width: 100%;
+    text-align: center;
+    position: relative;
+    height: 59.1vw;
+}
+
+#happenedissue .happendissue--background{
+    height: 100%;
+    width: 100%;
+    background-color: #fccb05;
+    opacity: 0.85;
+    position: absolute;
+    z-index: -1;
+}
+
+
+#happenedissue .happenedissue--h1 {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 12.69%;
+    text-transform: uppercase;
+    position: absolute;
+    color: var(--dark-brown);
+    font-weight: bold;
+    font-size: 2.34vw;
+    letter-spacing: 3px;
+    /* font-family: 'Montserrat', sans-serif; */
+}
+
+#happenedissue .happenedissue--p {
+    left: 50%;
+    transform: translateX(-50%);
+    top: 19.33%;
+    position: absolute;
+    color: var(--dark-brown);
+    font-weight: 300;
+    font-size: .8vw;
+    letter-spacing: normal;
+    line-height: 1.88;
+}
+
+
+#happenedissue .threeroll {
+    z-index: 1;
+    width: 4.95%;
+    top: 3.76%;
+    position: absolute;
+    left: 91.4% ;
+}
+
+#happenedissue .fiveroll {
+    z-index: 1;
+    width: 6.2%;
+    top: 14.2%;
+    position: absolute;
+    left: 90.2%;
+}
+#happenedissue .brand {
+    position: relative;
+    z-index: 1;
+    background-color: var(--dark-brown);
+    display: flex;
+    left: 0;
+    top: 27.1vw;
+    width: 100%;
+    height: 42.03%;
+    text-align: center;
+    border: solid 3px var(--dark-brown);
+}
+
+#happenedissue .brand .brand__brandblock {
+    overflow: initial;
+    z-index: 2;
+    width: 20%;
+    flex-grow: 1;
+    background-color: var(--Primary-color);
+    border: none;
+    position: relative;
+}
+
+#happenedissue .brand .brand__brandblock + .brand__brandblock {
+    border-left: none;
+}
+
+.brand__brandblock--title {
+    position: relative;
+    height: 15.41%;
+    width: 100%;
+    background-color: var(--dark-brown);
+    border-right: solid 1px var(--dark-brown);
+    border-left: solid 1px var(--dark-brown);
+}
+
+.brand__brandblock .dbrand 
+{
+    object-fit: fill;
+    height: 15.41%;
+    width: 100%;
+    background-color: var(--Primary-color);
+    border-right: none;
+}
+
+.model  {
+    display: block;
+    height: 20.8vw;
+}
+
+.hot {
+    z-index: 2;
+    position: absolute;
+    bottom:52.7%;
+    left:6.77%;
+    height: 79.72%;
+}
+
+.lol {
+    z-index: 2;
+    position: absolute;
+    top: 90.83%;
+    right: 92.89%;
+    width: 35%;
+}
+
+.brand__brandblock h1 {
+    text-transform: uppercase;
+    margin-top:18.125%;
+    color: var(--dark-brown);
+    font-weight: 800;
+    font-size: 2.86vw;
+    letter-spacing: normal;
+    line-height: 1;
+
+}
+
+
+
+.brand .brand__brandblock .arrow {
+    height: 7.81vw;
+    width: 7.81vw;
+    margin: auto;
+    margin-top: 13.125%;
+    margin-bottom: 16.125%;
+}
+
+
+.ahead {
+    z-index: 2;
+    position:absolute;
+    top: 83%;
+    right:95%;
+    width: 46.2%;
+}
+
+.brand__brandblock--title h2 {
+    position:absolute;
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 800;
+    font-size: 1.56vw;
+    letter-spacing: normal;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.brand__brandblock .imgcontain {
+    height: 84.59%;
+    overflow: hidden;
+    position: relative;
+}
+
+@media only screen and (max-width: 800px) {
+    .kr.happenedissue--p{
+        font-size: .8rem!important;
+    }
+}
+
+@media only screen and (max-width: 420px){
+    .kr.happenedissue--p{
+        font-size: .7rem!important;
+        width: 80%;
+        top: 12%;
+    }
+}

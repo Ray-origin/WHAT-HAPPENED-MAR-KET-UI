@@ -1,0 +1,53 @@
+.main{
+    width: 100%;
+    height: auto;
+    margin-bottom: 8.9rem;
+}
+.grid{
+    width: 82%;
+    margin: 8.9rem 9% 8.9rem 9%;
+    justify-items: center;
+    display: grid;
+    align-items: center;
+    grid-template-columns: repeat(auto-fill,minmax(300px,1fr));
+    grid-row-gap: 4.5rem;
+}
+.grid-item{
+    width: 300px;
+    height: auto;
+    cursor: pointer;
+}
+.grid-item img{
+    width: 100%;
+    height: 100%;
+}
+.grid-item:hover.grid-item>img{
+    opacity: 0.8;
+    scale: 1.05;
+}
+.grid-item h3{
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.94;
+    margin: 2rem 0;
+}
+.info{
+    position: relative;
+}
+.info span{
+    line-height: 2.19;
+    /* margin-right: 10.25rem; */
+}
+.liked{
+    position: absolute;
+    right: 0%;
+
+}
+.info img{
+    position: relative;
+    width: 1.25rem;
+    height: 1.25rem;
+    top: 4px;
+    right: 10px;
+}
+
