@@ -179,9 +179,12 @@
 }
 
 @media only screen and (max-width: 420px){
-    .kr.happenedissue--p{
+    .happenedissue--h1{
         font-size: .7rem!important;
+    }
+    .kr.happenedissue--p{
+        font-size: .6rem!important;
         width: 80%;
-        top: 12%;
+        line-height: 1.5!important;
     }
 }

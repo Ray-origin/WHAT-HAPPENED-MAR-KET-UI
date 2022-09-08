@@ -14,7 +14,7 @@ function BrandStory() {
         <h2 className="whathappen--h2">
             What Happened's Brand story
         </h2>
-        <p className="whathappen--p">
+        <p className="kr whathappen--p">
             청춘이 있는 바이며, 말이다. 같지 노년에게서 어디 모래뿐일 무엇을 풀이 옷을 
             봄바람이다. 새 천고에 놀이 내는 찾아 창공에 광야에서 살았으며, 듣는다. 수 있는
             긴지라 사는가 낙원을 웅대한 아니다. 내는 이상 할지라도 피다. 피부가 불러 피고

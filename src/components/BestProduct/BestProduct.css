@@ -14,13 +14,14 @@
     position: absolute;
     top: 14%;
     /* left: 50%; */
-    margin: 0 40% 0 40%;
+    margin: 0 20% 0 40%;
     font-size: 2vw;
     font-weight: bold;
     line-height: 1.2;
     letter-spacing: 5px;
     text-transform: uppercase;
     color: var(--Primary-color);
+    display: block;
 }
 .best-product p{
     position: absolute;
@@ -101,7 +102,14 @@
     margin-right: 1rem;
 }
 
+
+
 @media only screen and (max-width: 768px){
+    .best-product h1{
+        font-size: 1.2rem;
+        margin-right: 0;
+        margin-left: 35%;
+    }
     .best-product p{
         font-size: 3vw;
         text-align: left;
@@ -118,5 +126,12 @@
     }
     .button-go h3{
         font-size: 3vw;
+    }
+}
+@media only screen and (max-width: 420px){
+    .best-product h1{
+        font-size: 1rem;
+        margin-left: 25%;
+
     }
 }

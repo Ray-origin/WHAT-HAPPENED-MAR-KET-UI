@@ -33,7 +33,7 @@ function Footer() {
             <h3>
                 my order
             </h3>
-            <p>
+            <p className="kr">
                 내 주문<br/>
                 주문 배송<br/>
                 취소 / 교환 / 반품 내역<br/>
@@ -47,7 +47,7 @@ function Footer() {
             <h3>
                 my account
             </h3>
-            <p>
+            <p className="kr">
                 회원 정보 수정<br/>
                 회원 등급<br/>
                 마일리지 현황<br/>
@@ -60,7 +60,7 @@ function Footer() {
                 <h3>
                    help
                 </h3>
-                <p>
+                <p className="kr">
                     1 : 1 상담 내역<br/>
                     상품 Q & A 내역<br/>
                     공지 사항<br/>
@@ -73,29 +73,30 @@ function Footer() {
 
 
     </div>
+    <div className='border'>
+        <div className="outro">
+            <p>
+                © 2020-2021 what happened corp  ｜  
+            
+            </p>
+            <p className="kr">
+                (주) 왓헤픈 ｜ 대표자 : 홍길동 ｜ 사업자 등록번호 
+            </p>
 
-    <div className="outro">
-        <p>
-            © 2020-2021 what happened corp  ｜  
-           
-        </p>
-        <p className="kr">
-            (주) 왓헤픈 ｜ 대표자 : 홍길동 ｜ 사업자 등록번호 
-        </p>
+            <p> 
+                : 356-00-00000 ㅣ test0101@what happened.co.kr
+            </p>
+            <p className="kr">
+                서울특별시 강남구 도산대로 8길 17 
+            </p>
 
-        <p> 
-            : 356-00-00000 ㅣ test0101@what happened.co.kr
-        </p>
-        <p className="kr">
-            서울특별시 강남구 도산대로 8길 17 
-        </p>
-
-        <p> 
-            ｜ FAX : 070-0000-0000  l  
-        </p>
-        <p className="kr">
-            서비스 이용약관  l  개인정보처리방침
-        </p>
+            <p> 
+                ｜ FAX : 070-0000-0000  l  
+            </p>
+            <p className="kr">
+                서비스 이용약관  l  개인정보처리방침
+            </p>
+        </div>
     </div>
 </div>
   )

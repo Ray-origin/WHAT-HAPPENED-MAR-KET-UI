@@ -62,13 +62,14 @@
     color: #333;
 }
 
-
+.border{
+    border-top: solid 2px #f4f4f4;
+}
 
 .outro {
     display: block;
     padding-bottom: 7.063rem;
     padding-top: 1.375rem;
-    border-top: solid 2px #f4f4f4;
     text-align: left;
     width: 52.438rem;
 }

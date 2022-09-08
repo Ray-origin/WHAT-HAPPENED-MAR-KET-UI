@@ -153,11 +153,13 @@
     .whathappen--seemore{
         left: 0%;
         top: 40%;
+        scale: .5;
     }
 }
 @media screen and (max-width:420px) {
     .whathappen--seemore{
-        scale: .5;
+        scale: .4;
+        top:37%;
         overflow: hidden;
     }
 }
