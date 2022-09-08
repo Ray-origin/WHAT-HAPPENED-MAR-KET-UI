@@ -41,7 +41,7 @@ function HappenedIssue() {
                 <h2>c brand</h2>
             </div>
             <div className="imgcontain">
-                <img src="imgs/images/cbrand.PNG" alt="" className="model"/>
+                <img src="imgs/images/cbrand.png" alt="" className="model"/>
             </div>
         </div>
         <div className="brand__brandblock">
@@ -49,7 +49,7 @@ function HappenedIssue() {
                 <h2>d brand</h2>
             </div>
             <div className="imgcontain">
-                <img src="imgs/images/dbrand.PNG" alt="" className="model"/>
+                <img src="imgs/images/dbrand.png" alt="" className="model"/>
             </div>
         </div>
         <div className="brand__brandblock">
@@ -59,7 +59,7 @@ function HappenedIssue() {
             </div>
     
             <div className="imgcontain">
-                <img src="imgs/images/ebrand.PNG" alt="" className="model"/>
+                <img src="imgs/images/ebrand.png" alt="" className="model"/>
     
             </div>
             
