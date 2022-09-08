@@ -3,8 +3,8 @@ import './Footer.css'
 function Footer() {
   return (
     <div id="footer">
-    <div class="contain">
-        <div class="footer__whathappened">
+    <div className="contain">
+        <div className="footer__whathappened">
             <h3>
                 what happened
             </h3>
@@ -17,7 +17,7 @@ function Footer() {
             </p>
         </div>
 
-        <div class="footer__help aboutus" >
+        <div className="footer__help aboutus" >
             <h3>
                 about us
             </h3>
@@ -29,7 +29,7 @@ function Footer() {
         </div>
 
 
-        <div class="footer__help myorder" >
+        <div className="footer__help myorder" >
             <h3>
                 my order
             </h3>
@@ -43,7 +43,7 @@ function Footer() {
         </div>
     
     
-        <div class="footer__help myaccount" >
+        <div className="footer__help myaccount" >
             <h3>
                 my account
             </h3>
@@ -56,7 +56,7 @@ function Footer() {
         </div>
     
     
-            <div class="footer__help">
+            <div className="footer__help">
                 <h3>
                    help
                 </h3>
@@ -74,26 +74,26 @@ function Footer() {
 
     </div>
 
-    <div class="outro">
+    <div className="outro">
         <p>
             © 2020-2021 what happened corp  ｜  
            
         </p>
-        <p class="kr">
+        <p className="kr">
             (주) 왓헤픈 ｜ 대표자 : 홍길동 ｜ 사업자 등록번호 
         </p>
 
         <p> 
             : 356-00-00000 ㅣ test0101@what happened.co.kr
         </p>
-        <p class="kr">
+        <p className="kr">
             서울특별시 강남구 도산대로 8길 17 
         </p>
 
         <p> 
             ｜ FAX : 070-0000-0000  l  
         </p>
-        <p class="kr">
+        <p className="kr">
             서비스 이용약관  l  개인정보처리방침
         </p>
     </div>
