@@ -140,9 +140,9 @@
 .whathappen--seemore{
     z-index: 90;
     margin-top: 20%;
-    position: relative;
+    position: absolute;
     top: 30%;
-    left: 10%;
+    left: 51.5%;
     text-align: center;
     width: 12.5rem;
     height: 3.75rem;
@@ -151,6 +151,7 @@
 
 @media screen and (max-width:900px) {
     .whathappen--seemore{
+        position: relative;
         left: 0%;
         top: 40%;
         scale: .5;

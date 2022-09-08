@@ -1,4 +1,5 @@
 import React from 'react'
+import SeeMore from '../SeeMore/SeeMore'
 import './Whathappened.css'
 function Whathappened() {
   return (
@@ -12,6 +13,9 @@ function Whathappened() {
             How to create mobile-optimized videos in minutes. Not a designer, 
             every team makes a lot of videos Can be trimmed. Take the first 
         </p>
+        <div className='whathapppened__seemore'>
+          <SeeMore/>
+        </div>
         <img src="imgs/images/girlandslide.png" alt="" className="whathappned__girlandslide"/>
         <img src="imgs/images/blackh.png" alt="" className="whathappned__blackh"/>
         <img src="imgs/images/yelloww.png" alt="" className="whathappned__yelloww"/>

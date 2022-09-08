@@ -5,7 +5,7 @@
     width: 12.5rem;
     height: 3.75rem;
     margin: auto;
-    background: white;
+    /* background: white; */
     z-index: 90;
 }
 .seemore-btn:hover{

@@ -118,10 +118,24 @@ transform: translateX(-50%);
     transform: translateX(-50%);
 }
 
-@media only screen and (max-width: 800px){
+.whathapppened__seemore{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top:20.1%;
+    z-index: 90;
+    /* background-color: white; */
+}
+
+@media only screen and (max-width: 900px){
     .whathappened__p{
         font-size: .8rem;
         width: 55%;
+    }
+    .whathapppened__seemore{
+        top:80%;
+        scale: .4;
     }
 }
 
@@ -130,5 +144,9 @@ transform: translateX(-50%);
         font-size: .6rem;
         width: 60%;
         top: 12%;
+    }
+    .whathapppened__seemore{
+        scale: .4;
+        top:85%;
     }
 }

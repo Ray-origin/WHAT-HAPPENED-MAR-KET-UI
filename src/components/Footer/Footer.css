@@ -64,14 +64,18 @@
 
 .border{
     border-top: solid 2px #f4f4f4;
+    width: 100%;
+    display: flex;
+    position: relative;
 }
 
 .outro {
-    display: block;
-    padding-bottom: 7.063rem;
+    display: inline-block;
+    padding-bottom: 113px;
     padding-top: 1.375rem;
-    text-align: left;
+    text-align: left;   
     width: 52.438rem;
+    height: 38px;
 }
 
 .outro p {
@@ -79,11 +83,28 @@
     font-size: 14px;
     font-weight: 300;
     line-height: 1.71;
-    letter-spacing: normal;
+    letter-spacing: -0.8px;
     text-align: left;
     color: #a9a9a9;
 }
-
+.icon-container{
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    right: 0;
+}
+.outro__icon{
+    width: 23px;
+    height: 21px;
+    margin-right: 22px;
+    margin-top: 27px;
+    float: right;
+}
+.outro__icon img{
+    width: 100%;
+    height: 100%;
+    object-fit: scale-down;
+}
 
 
 .aboutus {
@@ -140,7 +161,22 @@
     .footer__help {
         margin-top: 20px;
     }
-    .outro {
-        display:inline;
+    .border{
+        padding-bottom: 50px;
+    }
+    .outro{
+        display: inline;
+        padding-bottom: 113px;
+        height: auto;
+    }
+    .icon-container{
+        left: 0;
+        top: 50%;
+    }
+    .outro__icon{
+        display: block;
+        margin: auto;
+        padding: 1px;
+        
     }
 }

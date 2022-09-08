@@ -97,6 +97,17 @@ function Footer() {
                 서비스 이용약관  l  개인정보처리방침
             </p>
         </div>
+        <div className='icon-container'>
+            <div className='outro__icon'>
+                <img src='imgs/snsicon-01@3x.png' alt=""/>
+            </div>
+            <div className='outro__icon'>
+                <img src='imgs/snsicon-02@3x.png' alt=""/>
+            </div>
+            <div className='outro__icon'>
+                <img src='imgs/snsicon-03@3x.png' alt=""/>
+            </div>
+        </div>    
     </div>
 </div>
   )

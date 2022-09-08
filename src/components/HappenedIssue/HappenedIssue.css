@@ -26,7 +26,6 @@
     font-weight: bold;
     font-size: 2.34vw;
     letter-spacing: 3px;
-    /* font-family: 'Montserrat', sans-serif; */
 }
 
 #happenedissue .happenedissue--p {
@@ -39,6 +38,13 @@
     font-size: .8vw;
     letter-spacing: normal;
     line-height: 1.88;
+}
+.happenedissue__seemore{
+    position: absolute;
+    top: 29.22%;
+    left: 0;
+    right: 0;
+    margin:  0 auto;
 }
 
 
@@ -172,9 +178,27 @@
     position: relative;
 }
 
-@media only screen and (max-width: 800px) {
+@media only screen and (max-width: 900px) {
     .kr.happenedissue--p{
         font-size: .8rem!important;
+    }
+    .happenedissue__seemore{
+        scale: .5;
+        top:87%;
+        z-index: 90; 
+    }
+}
+@media only screen and (max-width: 600px) and (min-width: 420px){
+    .happenedissue__seemore{
+        top:84%;
+    }
+    .happenedissue--h1{
+        font-size: .7rem!important;
+    }
+    .kr.happenedissue--p{
+        font-size: .6rem!important;
+        width: 80%;
+        line-height: 1.5!important;
     }
 }
 
@@ -186,5 +210,9 @@
         font-size: .6rem!important;
         width: 80%;
         line-height: 1.5!important;
+    }
+    .happenedissue__seemore{
+        scale: .4;
+        top: 82%;
     }
 }

@@ -61,6 +61,7 @@ nav ul li a{
 a:hover{
     background-color: var(--pinkish-grey-Two);
     padding: 15px 15px !important;
+    transition-delay: 100ms;
 }
 @media only screen and (max-width: 1200px){
     .logo{
