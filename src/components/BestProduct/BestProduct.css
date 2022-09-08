@@ -37,9 +37,9 @@
 }
 .product-container{
     position: absolute;
-    width: 84%;
+    width: 86%;
     height: auto;
-    margin:0 8% 0 9%;
+    margin:0 8% 0 8%;
     top: 22.625rem;
     bottom: 20.5%;
     display: grid;
