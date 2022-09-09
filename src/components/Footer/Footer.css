@@ -90,7 +90,7 @@
 .icon-container{
     display: flex;
     justify-content: flex-end;
-    position: absolute;
+    margin-left: auto;
     right: 0;
 }
 .outro__icon{
@@ -99,6 +99,9 @@
     margin-right: 22px;
     margin-top: 27px;
     float: right;
+}
+.outro__icon:last-child{
+    margin-right:0;
 }
 .outro__icon img{
     width: 100%;
@@ -163,16 +166,17 @@
     }
     .border{
         padding-bottom: 50px;
+        flex-direction: column;
     }
     .outro{
-        display: inline;
-        padding-bottom: 113px;
+        display: block;
+        padding-bottom: 5px;
         height: auto;
+        width: 100%;
     }
-    .icon-container{
+    /* .icon-container{
         left: 0;
-        top: 50%;
-    }
+    } */
     .outro__icon{
         display: block;
         margin: auto;
